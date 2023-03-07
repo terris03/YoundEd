@@ -84,7 +84,7 @@ body {
   line-height: var(--bs-body-line-height);
   color: var(--bs-body-color);
   text-align: var(--bs-body-text-align);
-  background-color: var(--bs-body-bg);
+  background-color: rgb(10, 136, 62);
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
@@ -4053,7 +4053,7 @@ textarea.form-control-lg {
   padding-top: 0.3125rem;
   padding-bottom: 0.3125rem;
   margin-right: 1rem;
-  font-size: 1.25rem;
+  font-size: 1.15rem;
   text-decoration: none;
   white-space: nowrap;
 }
@@ -11344,6 +11344,11 @@ section {
 }
 #mainNav .navbar-nav .nav-item .nav-link.active {
   color: #2937f0;
+}
+
+#navImg {
+  width: 20%;
+  margin-right: 40%;
 }
 
 /*!
